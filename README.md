@@ -27,7 +27,7 @@ To use FakeLib, follow these steps:
 ### Please note the following:
 
 - FakeLib requires Android Studio for compilation and build process.
-- In the `MainActivity`, you will find a variable named `appPath`, where you should specify the package name of the target application you wish to inject FakeLib into.
+- In the `MainActivity`, you will find a variable named `appPackage`, where you should specify the package name of the target application you wish to inject FakeLib into.
 - In the C++ code (`libmain/libmain.cpp`), you can insert your custom code for injection, ensuring not to modify the `JNI_OnLoad` function already present, as it may lead to conflicts.
 
 ## Notes
